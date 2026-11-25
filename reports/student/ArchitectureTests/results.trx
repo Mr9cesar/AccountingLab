@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="389925e8-274a-43b6-ba94-0cd8c6baa596" name="JEANNKY@JEANNKY 2026-11-24 21:15:17" runUser="JEANNKY\JEANNKY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-24T21:15:17.2141257-05:00" queuing="2026-11-24T21:15:17.2141261-05:00" start="2026-11-24T21:15:15.7947047-05:00" finish="2026-11-24T21:15:17.2270427-05:00" />
+  <TestSettings name="default" id="788ee3c0-2118-49bb-916f-996213d36672">
+    <Deployment runDeploymentRoot="JEANNKY_JEANNKY_2026-11-24_21_15_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4a2b3b02-ee31-4706-9fa6-237e3ecb91a6" testId="78bf92c1-061b-0bfe-df7e-00e3f5d11a80" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Infrastructure_references_inner_contracts_and_does_not_depend_on_api" computerName="JEANNKY" duration="00:00:00.0169185" startTime="2026-11-24T21:15:16.9923901-05:00" endTime="2026-11-24T21:15:16.9923905-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a2b3b02-ee31-4706-9fa6-237e3ecb91a6" />
+    <UnitTestResult executionId="f6bcdaa4-f1c9-4081-8a15-8738b6a5811c" testId="96e40bdf-394f-b349-2261-5a2c558d289f" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_entities_do_not_inherit_database_or_web_framework_base_classes" computerName="JEANNKY" duration="00:00:00.0009908" startTime="2026-11-24T21:15:16.9947931-05:00" endTime="2026-11-24T21:15:16.9947936-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6bcdaa4-f1c9-4081-8a15-8738b6a5811c" />
+    <UnitTestResult executionId="892b89d5-3025-415d-9ba8-961acc36b952" testId="b77503e2-7524-bbb7-74d0-d0406005a6f8" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Monetary_domain_properties_do_not_use_binary_floating_point" computerName="JEANNKY" duration="00:00:00.0022233" startTime="2026-11-24T21:15:16.9971245-05:00" endTime="2026-11-24T21:15:16.9971249-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="892b89d5-3025-415d-9ba8-961acc36b952" />
+    <UnitTestResult executionId="09bb16aa-3871-46ea-ac02-17901bc03d86" testId="ad1cd626-86bb-883d-a235-f06554b77337" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Application_depends_on_domain_as_its_only_project_layer" computerName="JEANNKY" duration="00:00:00.0004346" startTime="2026-11-24T21:15:16.9929887-05:00" endTime="2026-11-24T21:15:16.9929889-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09bb16aa-3871-46ea-ac02-17901bc03d86" />
+    <UnitTestResult executionId="edbf0bd4-a343-438a-af7f-33166f74cc7e" testId="97b74b84-eeeb-33fe-1d6d-f995c5794f57" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_assembly_has_no_reference_to_outer_layers_or_database_and_web_frameworks" computerName="JEANNKY" duration="00:00:00.0005599" startTime="2026-11-24T21:15:16.9936523-05:00" endTime="2026-11-24T21:15:16.9936527-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edbf0bd4-a343-438a-af7f-33166f74cc7e" />
+    <UnitTestResult executionId="3cd304f1-17c9-47b5-8a43-c50d2648acb3" testId="1d13e480-2143-93ff-be09-e4a0d84fc0bc" testName="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_member_signatures_do_not_leak_framework_or_outer_layer_types" computerName="JEANNKY" duration="00:00:00.0392941" startTime="2026-11-24T21:15:16.9761074-05:00" endTime="2026-11-24T21:15:16.9761377-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cd304f1-17c9-47b5-8a43-c50d2648acb3" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_entities_do_not_inherit_database_or_web_framework_base_classes" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="96e40bdf-394f-b349-2261-5a2c558d289f">
+      <Execution id="f6bcdaa4-f1c9-4081-8a15-8738b6a5811c" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Domain_entities_do_not_inherit_database_or_web_framework_base_classes" />
+    </UnitTest>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Infrastructure_references_inner_contracts_and_does_not_depend_on_api" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="78bf92c1-061b-0bfe-df7e-00e3f5d11a80">
+      <Execution id="4a2b3b02-ee31-4706-9fa6-237e3ecb91a6" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Infrastructure_references_inner_contracts_and_does_not_depend_on_api" />
+    </UnitTest>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_assembly_has_no_reference_to_outer_layers_or_database_and_web_frameworks" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="97b74b84-eeeb-33fe-1d6d-f995c5794f57">
+      <Execution id="edbf0bd4-a343-438a-af7f-33166f74cc7e" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Domain_assembly_has_no_reference_to_outer_layers_or_database_and_web_frameworks" />
+    </UnitTest>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Application_depends_on_domain_as_its_only_project_layer" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="ad1cd626-86bb-883d-a235-f06554b77337">
+      <Execution id="09bb16aa-3871-46ea-ac02-17901bc03d86" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Application_depends_on_domain_as_its_only_project_layer" />
+    </UnitTest>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Monetary_domain_properties_do_not_use_binary_floating_point" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="b77503e2-7524-bbb7-74d0-d0406005a6f8">
+      <Execution id="892b89d5-3025-415d-9ba8-961acc36b952" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Monetary_domain_properties_do_not_use_binary_floating_point" />
+    </UnitTest>
+    <UnitTest name="AccountingLab.ArchitectureTests.DependencyRulesTests.Domain_member_signatures_do_not_leak_framework_or_outer_layer_types" storage="f:\patrones\accountinglab\tests\accountinglab.architecturetests\bin\release\net8.0\accountinglab.architecturetests.dll" id="1d13e480-2143-93ff-be09-e4a0d84fc0bc">
+      <Execution id="3cd304f1-17c9-47b5-8a43-c50d2648acb3" />
+      <TestMethod codeBase="F:\PATRONES\AccountingLab\tests\AccountingLab.ArchitectureTests\bin\Release\net8.0\AccountingLab.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AccountingLab.ArchitectureTests.DependencyRulesTests" name="Domain_member_signatures_do_not_leak_framework_or_outer_layer_types" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="78bf92c1-061b-0bfe-df7e-00e3f5d11a80" executionId="4a2b3b02-ee31-4706-9fa6-237e3ecb91a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96e40bdf-394f-b349-2261-5a2c558d289f" executionId="f6bcdaa4-f1c9-4081-8a15-8738b6a5811c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b77503e2-7524-bbb7-74d0-d0406005a6f8" executionId="892b89d5-3025-415d-9ba8-961acc36b952" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad1cd626-86bb-883d-a235-f06554b77337" executionId="09bb16aa-3871-46ea-ac02-17901bc03d86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97b74b84-eeeb-33fe-1d6d-f995c5794f57" executionId="edbf0bd4-a343-438a-af7f-33166f74cc7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d13e480-2143-93ff-be09-e4a0d84fc0bc" executionId="3cd304f1-17c9-47b5-8a43-c50d2648acb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.32)&#xD;
+[xUnit.net 00:00:00.14]   Discovering: AccountingLab.ArchitectureTests&#xD;
+[xUnit.net 00:00:00.20]   Discovered:  AccountingLab.ArchitectureTests&#xD;
+[xUnit.net 00:00:00.20]   Starting:    AccountingLab.ArchitectureTests&#xD;
+[xUnit.net 00:00:00.36]   Finished:    AccountingLab.ArchitectureTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
